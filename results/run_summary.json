@@ -1,0 +1,80 @@
+{
+ "sizes": {
+  "all_games_after_dropping_pushes": 24161,
+  "train_2008_2022": 18849,
+  "val_2023": 1311,
+  "test_2024_2026": 3952,
+  "train_over_rate": 0.4959,
+  "val_over_rate": 0.508,
+  "test_over_rate": 0.5056
+ },
+ "chosen": {
+  "Logistic Regression": {
+   "params": {
+    "C": "1.0"
+   },
+   "val_auc": 0.5084
+  },
+  "Random Forest (baseline)": {
+   "params": {
+    "d": "4",
+    "l": "10"
+   },
+   "val_auc": 0.5165
+  },
+  "XGBoost": {
+   "params": {
+    "n": "300",
+    "d": "4"
+   },
+   "val_auc": 0.5204
+  },
+  "Neural Network (MLP)": {
+   "params": {
+    "h": "(32,)",
+    "a": "0.01"
+   },
+   "val_auc": 0.5171
+  }
+ },
+ "features": [
+  "h_l3_pts_for",
+  "h_l3_pts_against",
+  "h_l3_total_pts",
+  "h_l3_margin",
+  "h_l3_win",
+  "h_l3_opp_sd_for",
+  "h_l3_opp_sd_against",
+  "h_sd_pts_for",
+  "h_sd_pts_against",
+  "h_sd_total_pts",
+  "h_rest_days",
+  "h_b2b",
+  "h_games_last7",
+  "h_travel_km",
+  "a_l3_pts_for",
+  "a_l3_pts_against",
+  "a_l3_total_pts",
+  "a_l3_margin",
+  "a_l3_win",
+  "a_l3_opp_sd_for",
+  "a_l3_opp_sd_against",
+  "a_sd_pts_for",
+  "a_sd_pts_against",
+  "a_sd_total_pts",
+  "a_rest_days",
+  "a_b2b",
+  "a_games_last7",
+  "a_travel_km",
+  "line_total",
+  "abs_spread",
+  "home_favored",
+  "is_playoff",
+  "exp_total_l3",
+  "exp_total_sd",
+  "l3_total_minus_line",
+  "sd_total_minus_line",
+  "both_b2b",
+  "travel_diff_km"
+ ]
+}
