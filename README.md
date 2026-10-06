@@ -3,7 +3,7 @@
 UE24CS352A Machine Learning Mini-Project - Problem 15: *The Bank is Open: AI in Sports Gambling*
 
 **Team:** Monika P M (PES1UG24CS275), More Atharv Sachin (PES1UG24CS276)
-**Repository:** `<REPO-NAME-PLACEHOLDER>` (private) - shared with faculty `<FACULTY-GITHUB-USERNAME-PLACEHOLDER>` and TAs `<TA-USERNAMES-PLACEHOLDER>`
+**Repository:** `nba-over-under` (private) - shared with faculty `<FACULTY-GITHUB-USERNAME-PLACEHOLDER>` and TAs `<TA-USERNAMES-PLACEHOLDER>`
 
 ## Task
 A simplified, classification version of the paper *The Bank is Open: AI in Sports Gambling* (Bucquet & Sarukkai). For each NBA game, predict whether the final combined score is **OVER (1)** or **UNDER (0)** the **sportsbook total line**. We do *not* predict the raw game total. Pushes (actual total == line) are dropped.
